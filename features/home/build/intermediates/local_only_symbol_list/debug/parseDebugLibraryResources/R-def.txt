@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+drawable albums
+drawable envelope
+drawable facebook
+drawable photos
+drawable social
+drawable twitter
+id action_albums
+id action_photos
+id action_sharing
+id albumsFragment
+id bottomNavigation
+id button_social_email
+id button_social_facebook
+id button_social_twitter
+id container
+id dashboard_graph
+id fragment_container
+id imageView
+id imageView_social_email
+id imageView_social_facebook
+id imageView_social_twitter
+id photosFragment
+id recyclerView
+id socialFragment
+id textView
+id toolbar
+layout activity_dashboard
+layout fragment_albums
+layout fragment_photos
+layout fragment_social
+layout item_album
+layout item_photo
+menu bottomnavigation_dashboard
+navigation dashboard_graph

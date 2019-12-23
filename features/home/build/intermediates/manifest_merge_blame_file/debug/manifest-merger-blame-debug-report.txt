@@ -1,0 +1,30 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="modularization.features.home" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+8
+9    <application android:theme="@style/AppTheme" >
+9-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:4:5-11:19
+9-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:4:18-49
+10        <activity android:name="modularization.features.home.HomeActivity" >
+10-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:5:9-10:20
+10-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:5:19-75
+11            <intent-filter>
+11-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:6:13-9:29
+12                <action android:name="com.jeroenmols.modularization.home.open" />
+12-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:7:17-82
+12-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:7:25-79
+13
+14                <category android:name="android.intent.category.DEFAULT" />
+14-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:8:17-76
+14-->C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:8:27-73
+15            </intent-filter>
+16        </activity>
+17    </application>
+18
+19</manifest>

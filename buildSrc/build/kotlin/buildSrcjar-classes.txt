@@ -1,0 +1,1 @@
+C:\Users\Gustavo de Jesus\Documents\MovieApp\buildSrc\build\classes\kotlin\main\Config.class;C:\Users\Gustavo de Jesus\Documents\MovieApp\buildSrc\build\classes\kotlin\main\Dependencies.class;C:\Users\Gustavo de Jesus\Documents\MovieApp\buildSrc\build\classes\kotlin\main\Versions.class

@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:2:5-43
+		INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:4:5-11:19
+	android:theme
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:4:18-49
+activity#modularization.features.home.HomeActivity
+ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:5:9-10:20
+	android:name
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:5:19-75
+intent-filter#action:name:com.jeroenmols.modularization.home.open+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:6:13-9:29
+action#com.jeroenmols.modularization.home.open
+ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:7:17-82
+	android:name
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:7:25-79
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:8:17-76
+	android:name
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml:8:27-73
+uses-sdk
+INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gustavo de Jesus\Documents\MovieApp\features\home\src\main\AndroidManifest.xml

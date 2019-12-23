@@ -1,0 +1,4 @@
+include ':app'
+include ':features:home'
+include ':libraries:ui-components'
+include ':libraries:actions'

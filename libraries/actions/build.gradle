@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+androidExtensions {
+    experimental = true
+    features = ["parcelize"]
+}
+
+dependencies {
+    implementation Dependencies.androidx_core
+
+    testImplementation Dependencies.testlib_junit
+}

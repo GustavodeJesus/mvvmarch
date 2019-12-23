@@ -1,0 +1,12 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+dependencies {
+    implementation Dependencies.androidx_material
+
+    testImplementation Dependencies.testlib_junit
+
+    androidTestImplementation Dependencies.testandroidx_runner
+    androidTestImplementation Dependencies.testandroidx_espressocore
+
+}

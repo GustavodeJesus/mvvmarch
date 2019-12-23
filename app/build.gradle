@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    defaultConfig {
+        applicationId "br.com.zup.movieapp"
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':features:home')
+    implementation project(':libraries:ui-components')
+    implementation project(':libraries:actions')
+
+    testImplementation Dependencies.testlib_junit
+
+    implementation Dependencies.androidx_navigation_fragment
+    implementation Dependencies.androidx_navigation_ui
+
+    implementation Dependencies.androidx_constraintlayout
+    implementation Dependencies.app_compat
+
+    implementation Dependencies.lottie_api
+
+    testImplementation Dependencies.testlib_junit
+
+    androidTestImplementation Dependencies.testandroidx_runner
+    androidTestImplementation Dependencies.testandroidx_rules
+    androidTestImplementation Dependencies.testandroidx_espressocore
+}

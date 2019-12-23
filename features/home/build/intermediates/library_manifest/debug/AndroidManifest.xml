@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="modularization.features.home" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+
+    <application android:theme="@style/AppTheme" >
+        <activity android:name="modularization.features.home.HomeActivity" >
+            <intent-filter>
+                <action android:name="com.jeroenmols.modularization.home.open" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
